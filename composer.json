@@ -1,0 +1,23 @@
+{
+  "name": "eva/crud",
+  "type": "library",
+  "description": "PSR-7 CRUD actions. Can be used for Eva Application, Slim Framework, Zend Expressive and etc. PSR7 CRUD",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Pantushin",
+      "email": "sergey.pantushin@augustmedia.io"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Eva\\Crud\\": "src/"
+    }
+  },
+  "require": {
+    "psr/http-message": "^1.0",
+    "interop/container": "dev-master",
+    "interop/template-renderer": "dev-master",
+    "interop/object-manager": "dev-master"
+  }
+}
